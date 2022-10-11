@@ -2,7 +2,64 @@
 /* колір вторичного тексту #212121 */
 /* акцент #2196F3 */
 /* білий #FFFFFF */
+:root{
+    --main-color:#757575;
+    --second-color:#212121;
+    --accent-color:#2196F3;
+    --defult-color:#FFFFFF;
+}
 
+body{
+    background-color:var(--defult-color);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
 
+/* Навігаційне меню */
 
+    /* Лого */
+.logo{
+    color:#000000;
+    
+    font-family: Raleway;
+    font-weight: 700;
+}
+.logo .logo-web{
+    color:var(--accent-color);
+    
+}
+
+    /* Список меню */
+
+.nav-list{
+    color: var(--second-color);
+    
+}
+.nav-list:hover,.nav-list:focus {
+    color: var(--accent-color);
+
+}
+
+/* Контакти */
+.contact-nav{
+  color:var(--main-color);
+}
+.contact-nav:hover,.contact-nav:focus {
+  color:var(--accent-color);
+}
+
+/* hero */
+.title{
+    color:var(--defult-color);
+}
+.button-hero{
+    color:var(--defult-color);
+    background-color:var(--accent-color);
+}
