@@ -22,18 +22,21 @@ a{
     text-decoration: none;
 }
 
+h2{
+    color:var(--second-color);
+}
+
 /* Навігаційне меню */
 
     /* Лого */
-.logo{
-    color:#000000;
-    
-    font-family: Raleway;
-    font-weight: 700;
-}
-.logo .logo-web{
+.logo-main{
     color:var(--accent-color);
-    
+}
+.logo-black{
+    color:#000000;
+}
+.logo-white{
+    color:var(--defult-color);
 }
 
     /* Список меню */
@@ -48,18 +51,55 @@ a{
 }
 
 /* Контакти */
-.contact-nav{
+.contact-tel{
   color:var(--main-color);
+
 }
-.contact-nav:hover,.contact-nav:focus {
+.contact-mail{
+    color:#2196F3;
+}
+.contact-tel:hover,.contact-tel:focus {
   color:var(--accent-color);
 }
 
 /* hero */
-.title{
+.title-hero{
     color:var(--defult-color);
 }
 .button-hero{
     color:var(--defult-color);
     background-color:var(--accent-color);
+}
+
+
+/* Особливості */
+.title-features{
+    color:var(--second-color);
+}
+
+.features-description{
+    color:var(--main-color);
+}
+
+/* Наша команда */
+.team-name{
+    color:var(--second-color);
+}
+.team-description{
+    color:var(--main-color);
+}
+
+/* Футер */
+.address-map{
+    color:var(--defult-color);
+}
+.address-mt{
+    color:rgba(255, 255, 255, 0.6)
+}
+
+.address-map:hover,.address-map:focus{
+    color:var(--accent-color);
+}
+.address-mt:hover,.address-mt:focus{
+    color:var(--accent-color);
 }
