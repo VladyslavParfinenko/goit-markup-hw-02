@@ -26,6 +26,10 @@ h2{
     color:var(--second-color);
 }
 
+p{
+    color:var(--main-color);
+}
+
 /* Навігаційне меню */
 
     /* Лого */
@@ -48,6 +52,9 @@ h2{
 .nav-list:hover,.nav-list:focus {
     color: var(--accent-color);
 
+}
+.active-site{
+    color:var(--accent-color);
 }
 
 /* Контакти */
@@ -103,3 +110,16 @@ h2{
 .address-mt:hover,.address-mt:focus{
     color:var(--accent-color);
 }
+
+/* Portfolio */
+
+    /* fillter */
+.button-fillter{
+    color:var(--second-color);
+    background-color:#F5F4FA;
+}
+.button-fillter:hover,.button-fillter:focus{
+    color:var(--defult-color);
+    background-color:var(--accent-color);
+}
+
