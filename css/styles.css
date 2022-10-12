@@ -63,20 +63,15 @@ p{
 }
 
 /* Контакти */
-.contact-tel{
+.contact{
   color:var(--main-color);
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.contact-mail{
-    color:#2196F3;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
 
-.contact-tel:hover,.contact-tel:focus {
+
+.contact:hover,.contact:focus {
   color:var(--accent-color);
 }
 
