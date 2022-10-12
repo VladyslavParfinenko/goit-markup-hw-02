@@ -96,6 +96,7 @@ p{
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .button-hero:hover,.button-hero:focus{
     color:var(--second-color);
@@ -183,6 +184,7 @@ p{
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .button-fillter:hover,.button-fillter:focus{
     color:var(--defult-color);
