@@ -13,7 +13,7 @@ body{
     background-color:var(--defult-color);
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    
 }
 
 ul{
@@ -49,6 +49,7 @@ p{
 
 .nav-list{
     color: var(--second-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -65,6 +66,7 @@ p{
 /* Контакти */
 .contact{
   color:var(--main-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -119,7 +121,6 @@ p{
 
 .second-title{
     color:var(--second-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -128,7 +129,6 @@ p{
 
 .title-features{
     color:var(--second-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -137,7 +137,6 @@ p{
 
 .features-description{
     color:var(--main-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -146,13 +145,13 @@ p{
 /* Наша команда */
 .team-name{
     color:var(--second-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em; 
 }
 .team-description{
     color:var(--main-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -174,7 +173,6 @@ p{
     
 }
 .address-decoration{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -194,6 +192,7 @@ p{
 .button-fillter{
     color:var(--second-color);
     background-color:#F5F4FA;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
@@ -206,7 +205,6 @@ p{
 
 /* Examples */
 .exampls{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -214,7 +212,6 @@ p{
 
 }
 .examples-desc{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
